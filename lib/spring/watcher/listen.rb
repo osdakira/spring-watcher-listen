@@ -1,4 +1,4 @@
-if ENV['DISABLE_SPRING_WATCHER_LISTEN']
+unless ENV['DISABLE_SPRING_WATCHER_LISTEN']
   require "spring/watcher"
   require "spring/watcher/abstract"
 
